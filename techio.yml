@@ -2,3 +2,9 @@ title: Custom Template
 plan:
 - title: Welcome
   statement: markdowns/welcome.md
+
+projects:
+  main:
+    root: exercises/
+    runner:
+      name: MatDau/docker-FLY:latest
