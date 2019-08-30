@@ -7,4 +7,4 @@ projects:
   main:
     root: exercises/
     runner:
-      name: MatDau/docker-FLY:latest
+      name: matteodauria/docker-fly:latest
