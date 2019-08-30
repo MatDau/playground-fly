@@ -1,9 +1,11 @@
 #!/bin/bash
 
+cd /project/target
+
 echo "-------------------------------------------------------"
 echo "Generate Java code for prova:"
 
-java -jar fly-standalone.jar /project/target/prova.fly
+java -jar fly-standalone.jar prova.fly
 
 
 echo ""
